@@ -40,7 +40,7 @@ import {
 const tlds = __TLDS__; // macro, see gulpfile.js
 
 const NUMBERS = '0123456789'.split('');
-const ALPHANUM = '0123456789abcdefghijklmnopqrstuvwxyz'.split('');
+const ALPHANUM = '0123456789abcdefghijklmnopqrstuvwxyzäöü'.split('');
 const WHITESPACE = [' ', '\f', '\r', '\t', '\v', '\u00a0', '\u1680', '\u180e']; // excluding line breaks
 
 let domainStates = []; // states that jump to DOMAIN on /[a-z0-9]/
